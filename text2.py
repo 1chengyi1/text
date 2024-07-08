@@ -6,7 +6,7 @@ config = {
     'user': 'root',  
     'password': '123456',  
     'host': '192.168.56.1',  
-    'port':'8501',
+    'port':'3306',
     'database': 'text',  
     'raise_on_warnings': True  
 }  
