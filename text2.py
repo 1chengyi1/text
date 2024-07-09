@@ -3,11 +3,11 @@ import mysql.connector
 import pandas as pd  
 # 数据库配置信息  
 config = {  
-    'user': 'root',  
-    'password': '123456',  
+    'user': 'my',  
+    'password': 'root',  
     'host': '192.168.56.1',  
     'port':'3306',
-    'database': 'text',  
+    'database': 'test',  
     'raise_on_warnings': True  
 }  
 def get_db_connection():  
