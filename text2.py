@@ -123,7 +123,7 @@ def main():
         # 显示表格  
         st.write(html_table1, unsafe_allow_html=True)  
         st.write(html_table2, unsafe_allow_html=True)
-    else：
+    else:
         st.write("暂时没有相关记录。")
 if __name__ == "__main__":  
     main()
