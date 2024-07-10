@@ -122,6 +122,8 @@ def main():
         html_table2 = withdrawn_papers_data.to_html(index=False, classes='dataframe', header="true")  
         # 显示表格  
         st.write(html_table1, unsafe_allow_html=True)  
-        st.write(html_table2, unsafe_allow_html=True)  
+        st.write(html_table2, unsafe_allow_html=True)
+    else：
+        st.write("暂时没有相关记录。")
 if __name__ == "__main__":  
     main()
